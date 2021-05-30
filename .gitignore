@@ -1,0 +1,84 @@
+# =============== #
+# Unity generated #
+# =============== #
+/[Ll]ibrary/
+/Library/
+/library/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/Assets/AssetStoreTools*
+/.vs/
+/Assets/StreamingAssets/Wyniki
+/Velvet VR Build/
+
+# Unity3D generated meta files
+# *.pidb.meta
+
+# Unity3D Generated File On Crash Reports
+sysinfo.txt
+
+# Builds
+*.apk
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+obj/
+*.svd
+.userprefs
+/.csproj
+*.pidb
+.suo
+/.sln
+*.user
+*.unityproj
+*.booproj
+*.csproj
+*.sln
+*.tmp
+.pidb
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DSStore?
+.
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =============== #
+# Compiled source #
+# =============== #
+*.com
+*.class
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+[filter "lfs"]
+    clean = git-lfs clean %f
+    smudge = git-lfs smudge %f
+    required = true
