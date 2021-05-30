@@ -62,12 +62,12 @@ public class LineController : MonoBehaviour
 
         foreach (var item in allLinePoints)
         {
-            if (!item.isStatic && !item.isGrabbed) item.LiczSile();
+            if (!item.isStatic && !item.IsGrabbed) item.LiczSile();
         }
 
         foreach (var item in allLinePoints)
         {
-            if (!item.isStatic && !item.isGrabbed) item.SymplektEuler(delta);
+            if (!item.isStatic && !item.IsGrabbed) item.SymplektEuler(delta);
         }
 
         foreach (var item in allLinePoints) item.SetLineRenderer();

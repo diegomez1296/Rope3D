@@ -2024,7 +2024,6 @@ Transform:
   - {fileID: 2085793118}
   - {fileID: 786898674}
   - {fileID: 125847255}
-  - {fileID: 1578607643}
   - {fileID: 247655344}
   - {fileID: 2085449507}
   - {fileID: 1995544460}
@@ -2074,6 +2073,7 @@ Transform:
   - {fileID: 1177460819}
   - {fileID: 2018738586}
   - {fileID: 1231971368}
+  - {fileID: 1578607643}
   - {fileID: 249394533}
   - {fileID: 2072422834}
   - {fileID: 875773845}
@@ -2121,16 +2121,16 @@ Transform:
   - {fileID: 2015872735}
   - {fileID: 315862013}
   - {fileID: 870233472}
-  - {fileID: 1178220222}
-  - {fileID: 1566797689}
   - {fileID: 526495645}
   - {fileID: 109460852}
-  - {fileID: 1749884361}
   - {fileID: 2038793278}
   - {fileID: 1383978723}
   - {fileID: 1454560742}
   - {fileID: 1873900876}
   - {fileID: 1500792283}
+  - {fileID: 1178220222}
+  - {fileID: 1566797689}
+  - {fileID: 1749884361}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8811,6 +8811,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 786898674}
     m_Modifications:
     - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 153732, guid: dd682e0ec46c0b54f899ac23e68590a1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -10769,7 +10773,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 183798366}
-  m_RootOrder: 101
+  m_RootOrder: 108
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1190389511
 PrefabInstance:
@@ -14296,7 +14300,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 183798366}
-  m_RootOrder: 102
+  m_RootOrder: 109
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1576568463
 PrefabInstance:
@@ -14417,7 +14421,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 183798366}
-  m_RootOrder: 4
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1579206049
 GameObject:
@@ -15694,7 +15698,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 183798366}
-  m_RootOrder: 105
+  m_RootOrder: 110
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1754773904
 PrefabInstance:

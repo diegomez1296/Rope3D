@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Valve.VR.InteractionSystem;
 
 public class LinePoint : MonoBehaviour
 {
+    public bool IsGrabbed { get; set; } = false;
+
     public bool isStatic = false;
-    public bool isGrabbed = false;
     public List<LinePoint> sasiedzi;
     public LinePoint nextSasiad;
     public List<float> odleglosciRownowagowe;
@@ -16,10 +18,12 @@ public class LinePoint : MonoBehaviour
     private float sprezystosc = 15f;
 
     [SerializeField] private LineRenderer lineRenderer;
+    [SerializeField] private Interactable interactable;
 
     private void Update()
     {
-
+        if (IsGrabbed)
+            this.transform.position = interactable.attachedToHand.transform.position;
     }
 
     public void DodajSasiada(LinePoint lp, bool isNext)
