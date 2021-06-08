@@ -14,8 +14,8 @@ public class LinePoint : MonoBehaviour
 
     private Vector3 predkosc = Vector3.zero;
     private Vector3 sila = Vector3.zero;
-    private Vector3 grawitacja = new Vector3(0.0f, -1f);
-    private float sprezystosc = 15f;
+    private Vector3 grawitacja = new Vector3(0.0f, -1.1f);
+    private float sprezystosc = 20f;
 
     [SerializeField] private LineRenderer lineRenderer;
     [SerializeField] private Interactable interactable;

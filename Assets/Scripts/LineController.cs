@@ -26,7 +26,7 @@ public class LineController : MonoBehaviour
         //}
 
         //if(Input.GetKeyDown(KeyCode.F5))
-        PhysicsProcess(0.1f);
+        PhysicsProcess(0.2f);
 
     }
 
